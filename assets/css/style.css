@@ -1,0 +1,187 @@
+body {
+    background-image: -webkit-radial-gradient(white, lightgrey, grey, white, gray, white, gray, white, gray, white, gray, white, gray, white, gray);
+    background-attachment: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    margin: 10px;
+    
+}
+
+.image {
+    border-style: ridge;
+    height: 200px;
+    width: 225px;
+    margin: 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom right, yellow, orange, magenta, aqua, lime, green);
+    border-image-slice: 1;
+}
+
+#name {
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 75px;
+    /* font-weight: bold; */
+    background: linear-gradient(to right, yellow, orange, magenta, aqua, lime, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+#name-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 10px; */
+}
+
+#list-item {
+    background-image: -webkit-radial-gradient(lightyellow,yellow, orange, magenta, darkorchid);
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: black;
+    border-color: black;
+}
+
+#list-item:hover {
+    border-style: dashed;
+    border-color: white;
+    /* color: white; */
+}
+
+
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#bio {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    background-image: -webkit-radial-gradient(yellow, aqua, lime);
+    font-size: 25px;
+    /* font-weight: bold; */
+    text-align: center;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+}
+
+#my-work {
+    /* border-style: ridge; */
+    /* border-width: 5px; */
+    /* border-radius: 10px; */
+    /* border-color: black; */
+    margin: 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom right, yellow, orange, magenta, aqua, lime, green);
+    border-image-slice: 1;
+}
+
+#work-header {
+    /* border-style: ridge;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: black; */
+    margin: 10px;
+    text-align: center;
+}
+
+#samples-of-my-work {
+    font-size: 60px;
+    /* font-weight: bold; */
+    background: linear-gradient(to right, yellow, orange, magenta, aqua, lime, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    margin: 10px;
+}
+
+#click-image {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+
+/* holds images of work  */
+#figure {
+/* margin: 10px; */
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+#samples1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#samples2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.app-image {
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.app-image:hover {
+    border-style: dashed;
+    border-color: white;
+    /* height: 500px;
+    width: 500px; */
+}
+
+.app-link {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
